@@ -21,7 +21,7 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 ```
                 in particolare 
                 
-                **domain** rappresenta il dominio trovato nella ricera 
+                <trong>domain</strong> rappresenta il dominio trovato nella ricera 
                 **create date** rappresenta la data di creazione 
                 **update date** rappresenta la data  in cui  e stata aggiornata 
                 **country** rapprensenta il coutry dove provenga il dominio 
