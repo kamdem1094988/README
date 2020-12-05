@@ -21,12 +21,12 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 ```
                 in particolare 
                 
-                *domain* rappresenta il dominio trovato nella ricera 
-                *create date* rappresenta la data di creazione 
-                *update date* rappresenta la data  in cui  e stata aggiornata 
-                *country* rapprensenta il coutry dove provenga il dominio 
-                *isDead* rappresenta il lo stato della richiesta
-                *NS* rappresenta il domain name server del dominio 
+                **domain** rappresenta il dominio trovato nella ricera 
+                **create date** rappresenta la data di creazione 
+                **update date** rappresenta la data  in cui  e stata aggiornata 
+                **country** rapprensenta il coutry dove provenga il dominio 
+                **isDead** rappresenta il lo stato della richiesta
+                **NS** rappresenta il domain name server del dominio 
                 
  le statistiche possono esssere fatti  e sono in patricolare specificato la data e la zona 
  degli esemepi di  formati JSON possono essere fatti  nel seguente modo 
