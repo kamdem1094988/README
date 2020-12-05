@@ -30,8 +30,9 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 
  le statistiche possono esssere fatti  e sono in patricolare specificato la data e la zona 
  degli esemepi di  formati JSON possono essere fatti  nel seguente modo 
- ```
- {
+ 
+ 
+ ```{
   "statistics": [
     {
       "zone": "bundle_all_zones",
