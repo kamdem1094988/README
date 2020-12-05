@@ -30,8 +30,8 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 **isDead** rappresenta il lo stato della richiesta
                 **NS** rappresenta il domain name server del dominio
                 
-                 le statistiche possono esssere fatti  e sono in patricolare specificato la data e la zona 
- degli esemepi di  formati JSON possono essere fatti  nel seguente modo 
+                    
+ le satistiche possono essere fatti e sono in prticolare  specificato  la data  e la zona degli esemepi di  formati JSON possono essere fatti  nel seguente modo 
                 
  ```{
   "statistics": [
