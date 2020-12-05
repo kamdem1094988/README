@@ -18,7 +18,7 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 "dns1.cscdns.net"
             ],
                }
-                ```
+               
                 in particolare 
                 
                 <trong>domain</strong> rappresenta il dominio trovato nella ricera 
