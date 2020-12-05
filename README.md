@@ -76,8 +76,18 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
  
  ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+   "domain": "warman.weir",
+            "create_date": "2020-12-04T18:39:57.791735",
+            "update_date": "2020-12-04T18:39:57.791737",
+            "country": "US",
+            "isDead": "False",
+            "A": [
+                "165.160.15.20",
+                "165.160.13.20"
+            ],
+            "NS": [
+                "dns2.cscdns.net",
+                "dns1.cscdns.net"
+            ],
 }
 ```
