@@ -3,8 +3,9 @@ l'aplicazione nella ripository  e una rest API che permette di ottenere dati a p
 # formato de resultati
 in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentante oggetti che modellano dati contenuti nel struttura dati  appartenente al data set  il formato dell l'oggetto rappresentante ogni singolo elemento ,nello specifico si rappresenta come segue 
 
-```  {
-            "domain": "warman.weir",
+```
+{
+   "domain": "warman.weir",
             "create_date": "2020-12-04T18:39:57.791735",
             "update_date": "2020-12-04T18:39:57.791737",
             "country": "US",
@@ -17,7 +18,9 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 "dns2.cscdns.net",
                 "dns1.cscdns.net"
             ],
-               } ```
+}
+```
+
                 in particolare 
                 
                 #domain# rappresenta il dominio trovato nella ricera 
@@ -75,19 +78,40 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
  
  
  ```
-{
-   "domain": "warman.weir",
-            "create_date": "2020-12-04T18:39:57.791735",
-            "update_date": "2020-12-04T18:39:57.791737",
-            "country": "US",
-            "isDead": "False",
-            "A": [
-                "165.160.15.20",
-                "165.160.13.20"
-            ],
-            "NS": [
-                "dns2.cscdns.net",
-                "dns1.cscdns.net"
-            ],
-}
+{"statistics": [
+    {
+      "zone": "bundle_all_zones",
+      "date": "2020-10-12T00:00:00",
+      "dec": 0,
+      "inc": 40861375,
+      "total": 306773769
+    },
+    {
+      "zone": "bundle_all_zones",
+      "date": "2020-09-22T00:00:00",
+      "dec": 0,
+      "inc": 41103956,
+      "total": 306067758
+    },
+    {
+      "zone": "bundle_all_zones",
+      "date": "2020-09-04T00:00:00",
+      "dec": 0,
+      "inc": 36370449,
+      "total": 305165199
+    },
+    {
+      "zone": "bundle_all_zones",
+      "date": "2020-09-03T00:00:00",
+      "dec": 0,
+      "inc": 33391168,
+      "total": 304267122
+    },
+    {
+      "zone": "bundle_all_zones",
+      "date": "2020-09-02T00:00:00",
+      "dec": 0,
+      "inc": 37671651,
+      "total": 30425926} }
+   
 ```
