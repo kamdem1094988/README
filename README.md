@@ -3,7 +3,7 @@ l'aplicazione nella ripository  e una rest API che permette di ottenere dati a p
 # formato de resultati
 in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentante oggetti che modellano dati contenuti nel struttura dati  appartenente al data set  il formato dell l'oggetto rappresentante ogni singolo elemento ,nello specifico si rappresenta come segue 
 
-```{
+```  {
             "domain": "warman.weir",
             "create_date": "2020-12-04T18:39:57.791735",
             "update_date": "2020-12-04T18:39:57.791737",
@@ -17,7 +17,7 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
                 "dns2.cscdns.net",
                 "dns1.cscdns.net"
             ],
-               }```
+               } ```
                 in particolare 
                 
                 #domain# rappresenta il dominio trovato nella ricera 
