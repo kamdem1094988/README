@@ -74,6 +74,4 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
  di nota che le statistiche sono uniforme e rappresentato in modo crescente attrverso l'occurenza dell' l'attributo totale  che facilita la  lettura dei dati 
  
  # rote dell l'applicazione 
- 
- **domain**
- **b**
+ >GET DOMAINS/search 
