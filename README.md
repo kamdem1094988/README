@@ -74,4 +74,56 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
  di nota che le statistiche sono uniforme e rappresentato in modo crescente attrverso l'occurenza dell' l'attributo totale  che facilita la  lettura dei dati 
  
  # rote dell l'applicazione 
- >GET DOMAINS/search 
+ >GET/ 
+ e la rotta in cui e possibile accedere  ad un interfaccia  grafica che permette di eseguire operazioni di ricerca  e di effetuamento  delle statistiche  senza  la necessita  di utilizzare linguaggi di programazione  e/o tool esterni per effuettuare le richieste 
+ >GET/DOMAINS/SEARCH
+ e la rotta che permette di eseguire la ricerca su l'insieme di  domini corrispondente  diponibile e di restituire tutti domini esistente  dentro la base di dati 
+ >GET/DOMAINS/TLD/
+rotta in cui e possiblile  di seseguire la recerca su linsieme di domini di primo livello e accedere ai resultati secondo il un specifico paese  
+>GET/DOMAINS/UPDATES/LIST
+e la rotta che permette di aggiornare  la lista dei domini presente dentro la base di dati 
+>GET/METADATA
+rotta in cui e posssibile accedere ai  metadati  relativi all' ogetto  restituito dal servizio 
+>GET/INFO /STAT/{ZONE} 
+questa rotta ci permette di ottenere informazione sulle statistiche relative ad ciacuna  zona 
+>GET/INFP/TLD/ZONE 
+questq rotte consente di fare la restituzione delle statistiche del dominio di pro=imo livello  relativa a ciascuna zona 
+  #filtri 
+  Il filtro presente nel corpo della richiesta GET per filtrare i dati è una stringa in formato JSON, contenente degli oggetti dotati della seguente struttura:
+  
+  "
+  {
+    "<campo>": {
+	    "<operatore>": <dato>
+	}
+}
+  "
+   
+   -$eq: indica se il valore associato al campo è uguale a quello indicato nel filtro
+   - $not: indica se il valore associato al campo è diverso da quello indicato nel filtro
+   I valori presenti come dato su cui eseguire il filtro possono essere delle stringhe, dei valori numerici oppure (nel caso degli ultimi tre operatori sopra specificati) un array contenente più valori dello stesso tipo.
+
+E' inoltre possibile unire più filtri insieme, mediante l'uso di una logica AND oppure OR. Per far ciò, la struttura della richiesta è la seguente:
+"
+{
+	"<operatore logico>": [{<filtro1>},{<filtro2>},...]
+}
+ "
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
