@@ -22,13 +22,14 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
 ```
 
                in particolare  
-               
-                 **domain** rappresenta il dominio trovato nella ricera
-                 **create date** rappresenta la data di creazione 
-                **update date** rappresenta la data  in cui  e stata aggiornata 
-                **country** rapprensenta il coutry dove provenga il dominio 
-                **isDead** rappresenta il lo stato della richiesta
-                **NS** rappresenta il domain name server del dominio
+
+
+  **domains** rappresenta il dominio trovato nella ricera  
+  **create date** rappresenta la data di creazione 
+   **update date** rappresenta la data  in cui  e stata aggiornata 
+   **country** rapprensenta il coutry dove provenga il dominio 
+  **is Dead** rappresenta il lo stato della richiesta
+ **NS**rappresenta il domain name server del dominio
                 
                     
  le satistiche possono essere fatti e sono in prticolare  specificato  la data  e la zona degli esemepi di  formati JSON possono essere fatti  nel seguente modo 
@@ -71,26 +72,22 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
       "total": 304259267
     },
  ```
- di nota che le statistiche sono uniforme e rappresentato in modo crescente attrverso l'occurenza dell' l'attributo totale  che facilita la  lettura dei dati 
  
  # rote dell l'applicazione 
- >GET/ 
- e la rotta in cui e possibile accedere  ad un interfaccia  grafica che permette di eseguire operazioni di ricerca  e di effetuamento  delle statistiche  senza  la necessita  di utilizzare linguaggi di programazione  e/o tool esterni per effuettuare le richieste 
- >GET/DOMAINS/SEARCH
- e la rotta che permette di eseguire la ricerca su l'insieme di  domini corrispondente  diponibile e di restituire tutti domini esistente  dentro la base di dati 
- >GET/DOMAINS/TLD/
-rotta in cui e possiblile  di seseguire la recerca su linsieme di domini di primo livello e accedere ai resultati secondo il un specifico paese  
->GET/DOMAINS/UPDATES/LIST
-e la rotta che permette di aggiornare  la lista dei domini presente dentro la base di dati 
->GET/METADATA
-rotta in cui e posssibile accedere ai  metadati  relativi all' ogetto  restituito dal servizio 
->GET/INFO /STAT/{ZONE} 
-questa rotta ci permette di ottenere informazione sulle statistiche relative ad ciacuna  zona 
->GET/INFP/TLD/ZONE 
-questq rotte consente di fare la restituzione delle statistiche del dominio di pro=imo livello  relativa a ciascuna zona 
-  #filtri 
-  Il filtro presente nel corpo della richiesta GET per filtrare i dati è una stringa in formato JSON, contenente degli oggetti dotati della seguente struttura:
-  
+ 
+ | >GET/ |  e la rotta in cui e possibile accedere  ad un interfaccia  grafica che permette di eseguire operazioni di ricerca  e di effetuamento  delle statistiche  senza  la necessita  di utilizzare linguaggi di programazione  e/o tool esterni per effuettuare le richieste |
+| >GET/DOMAINS/SEARCH |  e la rotta che permette di eseguire la ricerca su l'insieme di  domini corrispondente  diponibile e di restituire tutti domini esistente  dentro la base di dati |
+| >GET/SEARCH | rotta per cercare un dominio  |
+| >Get/country |  ritourna un json contenente u domaini per ogni coutrey a seconda della ricerca |
+ 
+ 
+ 
+ 
+ 
+ di nota che le statistiche sono uniforme e rappresentato in modo crescente attrverso l'occurenza dell' l'attributo totale  che facilita la  lettura dei dati 
+ 
+ 
+ 
   "
   {
     "<campo>": {
@@ -110,6 +107,7 @@ E' inoltre possibile unire più filtri insieme, mediante l'uso di una logica AND
 }
  "
    
+ # use case diagramme 
  
  
  
