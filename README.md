@@ -107,20 +107,13 @@ E' inoltre possibile unire più filtri insieme, mediante l'uso di una logica AND
 }
  "
    
- # use case diagramme 
+ # use case diagramma
  
  
+![diagramme de cas dutilisation](https://user-images.githubusercontent.com/74736550/105364751-d0087200-5bfd-11eb-8fb5-c5061aad690d.PNG)
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ # diagramma di classe
  
  
  
