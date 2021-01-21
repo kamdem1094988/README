@@ -121,3 +121,4 @@ E' inoltre possibile unire più filtri insieme, mediante l'uso di una logica AND
  
   # diagramma di sequenza
   
+![diagramma delle sequenze](https://user-images.githubusercontent.com/74736550/105365885-07c3e980-5bff-11eb-9cff-839e3fd1292b.PNG)
