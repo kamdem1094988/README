@@ -117,4 +117,7 @@ E' inoltre possibile unire più filtri insieme, mediante l'uso di una logica AND
  
  
  
+ ![classe diagramma](https://user-images.githubusercontent.com/74736550/105365668-c9c6c580-5bfe-11eb-9845-bc7d6bd81dc0.PNG)
  
+  # diagramma di sequenza
+  
