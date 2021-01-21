@@ -75,7 +75,7 @@ in seguito  ad una richiesta al servizio viene restituito  un JSON  rappresentan
  
  # rote dell l'applicazione 
  
- | >GET/ |  e la rotta in cui e possibile accedere  ad un interfaccia  grafica che permette di eseguire operazioni di ricerca  e di effetuamento  delle statistiche  senza  la necessita  di utilizzare linguaggi di programazione  e/o tool esterni per effuettuare le richieste |
+ | >GET/domains |  e la rotta in cui e possibile recuperare la lista dei domini disponibili sul api |
 | >GET/DOMAINS/SEARCH |  e la rotta che permette di eseguire la ricerca su l'insieme di  domini corrispondente  diponibile e di restituire tutti domini esistente  dentro la base di dati |
 | >GET/SEARCH | rotta per cercare un dominio  |
 | >Get/country |  ritourna un json contenente u domaini per ogni coutrey a seconda della ricerca |
